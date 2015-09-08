@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--upper meta tags -->
+		<meta name="description" content>
+		<meta name="author" content>
+		<link rel="icon" type="text/css" href="">
+		<title>CHOOSE YOUR OWN ADVENTURE GAME</title>
+		<!-- //place appropriate links to bootstrap and main css. -->
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+		<!--custom css -->
+		<link rel="stylesheet" type="text/css" href="main1.css">
+		<script type="text/javascript" src ="b2f.js"> 
+			var ypos, image;
+			window.addEventListener('SCROLL', parallex);
+			function parallex () {
+				ypos = window.pageYOffset;
+				image = document.getElementById('image');
+				image.style.top = ypos * .4 + 'px';
+			}
+
+		</script>
+	</head>	
+
+	<body>
+		<!-- <img id="image" src="https://ionelabolea.files.wordpress.com/2011/10/dark_room_by_ikiz.jpg"> -->
+	<!-- 	<div id="content"> -->
+		<div class="site wrapper"> 
+			<div class="site-wrapper-inner">
+				<div class="cover-container">
+					<div class='masthead clearfix'></div>
+					<div class="inner"></div>
+						<h3 class="masthead-brand">MAKE A CHOICE</h3>
+					<!-- 	<nav>
+							<ul class="nav masthead-nav">
+								<li class="active">
+									<a href="#">Home</a>
+								</li>
+								<li class="active">
+									<a href="#0">About</a>
+								</li>
+								<li class="active">
+									<a href="#">Contact</a>
+								</li>
+							</ul>
+						</nav> -->
+					<div class="inner cover">
+						<h1 class"cover-heading">The White Room</h1>
+						<p class="lead">One room. 3 Choices. One Door. One Window. One Bed.</p>
+						<!-- <p class="lead">
+							<a href="#" class="btn btn-lg btn-default">SCROLL DOWN</a>
+						</p> -->
+					</div>	
+
+				<!-- 	<div class="filler"></div> -->
+
+				<!-- 	<div class="container">
+						<div id="content">
+						<div class="inner"></div>
+							<h3 class="masthead-brand">
+								<a name="0"></a>ABOUT</h3>
+						</div>
+						<div class="inner">
+							<h1 class"cover-heading">Marco Pineda</h1>
+							<p class="lead">Mexico City-born, Marco Pineda is a seasoned vet in the marketing and tech-startup industry who is using his creativity to bring ideas to life in Austin, TX and Emerging Economies worldwide. He has traditional marketing and advertising experience, yet his focus lies in digital design where creating interactive consumer experiences drive him. Marco's portfolio showcases a range of campaigns in both digital and traditional media.</p>
+						</div>
+					</div> -->
+<!-- FOOTER -->					
+					<div class="mastfoot">
+						<div class="inner">
+							<p>Choose Your Own Path Game brought to you by <a href="http://twitter.com/marcoapineda13">@marcoapineda13</a> </p>	
+						</div>
+					</div>	
+				</div>
+				
+			</div>	
+			
+		</div>
+<!-- 	</div>	 -->
+	</body>
+</html>

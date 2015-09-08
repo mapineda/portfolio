@@ -1,0 +1,105 @@
+*{
+ box-sizing: border-box;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+   margin: 0 auto;
+}
+
+.nav li {
+  display: inline;
+   margin: 0 auto;
+}
+
+.jumbotron {
+  background-image:url('./mxcity.png');
+  background-size: cover;
+  height: 500px;
+  margin: 0 auto;
+
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+   margin: 0 auto;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+   margin: 0 auto;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+   margin: 0 auto;
+}
+
+
+.neighborhood-guides {
+  background-color: #141214;
+}
+
+
+.descript {
+  color: #fff
+}
+
+.profile-pic {
+  border-radius: 50px;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.hero {
+  border-radius:  50px;
+  width: 150%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+   margin: 0 auto;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+   margin: 0 auto;
+}
+
+.learn-more a {
+  color: #00b0ff;
+   margin: 0 auto;
+}
+
+
+
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
