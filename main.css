@@ -55,7 +55,7 @@
 }
 
 .profile-pic {
-  border-radius: 50px;
+  border-radius: 50%;
   width: 25%;
   display: block;
   margin-left: auto;
@@ -65,11 +65,12 @@
 }
 
 .hero {
-  border-radius:  50px;
-  width: 150%;
+  border-radius:  50%;
+  height: 300px;
+  width: 300px;
   display: block;
-    margin-left: auto;
-    margin-right: auto;
+   margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .learn-more {
@@ -89,7 +90,29 @@
    margin: 0 auto;
 }
 
+.resume-container {
+   position: relative;
+  top:100px;
+  bottom: 500px;
+   margin: 0 auto;
 
+}
+.digitalresume {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+/*FOOTER*/
+hr {
+  margin: 0 auto;
+  size: 20px;
+  color: black;
+  height: 30px;
+  width: 100%;
+}
 
 @font-face {
   font-family: 'Shift';
