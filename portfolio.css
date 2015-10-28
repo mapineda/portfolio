@@ -27,6 +27,7 @@ h1 {
    margin: 0 auto;
 }
 
+
 a {
 	color: #08c;
 }
@@ -148,10 +149,14 @@ ul.rig li {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+
+.navtainer {
+	color: white;
+}
 ul.rig li img {
-	max-width: 100%;
+	max-width: 90%;
 	height: auto;
-	margin: 0 0 10px;
+	margin: 0 0 20px;
 }
 ul.rig li h3 {
 	margin: 0 0 5px;
