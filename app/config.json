@@ -1,11 +1,12 @@
 {
-  "name": "Hamish Williams",
-  "role": "Designer",
-  "disciplines": ["Developer", "Prototyper", "Animator", "Illustrator", "Modder"],
-  "url": "https://hamishw.com",
-  "twitter": "@hamishMW",
-  "figma": "@Hamish",
-  "github": "HamishMW",
-  "repo": "https://github.com/HamishMW/portfolio",
-  "ascii": "__  __  __\n\u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215\n"
+  "name": "Marco Pineda",
+  "role": "Software Engineer",
+  "disciplines": ["Craftsman", "Trekkie", "Frontend", "Creator", "Leader", "Backend", "Fullstack"],
+  "url": "https://marcopineda.com",
+  "twitter": "@mapineda",
+  "linkedin": "pinedamarco",
+  "github": "mapineda",
+  "repo": "https://github.com/mapineda/portfolio",
+  "ascii": "\n\u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215\n__  __  __",
+  "city": "Houston"
 }

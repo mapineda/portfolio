@@ -96,7 +96,7 @@ export default function App() {
   useEffect(() => {
     console.info(
       `${config.ascii}\n`,
-      `Taking a peek huh? Check out the source code: ${config.repo}\n\n`
+      `Like what you see? Check out the source code: ${config.repo}\n\n`
     );
   }, []);
 
